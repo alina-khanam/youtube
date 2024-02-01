@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* This banner-section  */
+h1{
+    font-size: 50px;
+    margin: 10px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    margin: 10px;
+}
+
+.banner-section{
+    display: flex;
+    padding: 7%;
+    background-image: url(../wave.svg);
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+}
+
+.color-white{
+    color: white;
+}
+.half-width{
+    width: 50%;
+}
+img{
+    width:50%;
+    border-radius: 50%;
+   
+}
+.link{
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(blue, blueviolet);
+    color: white;
+    font-weight: 450;
+}
+
+/* this is about section */
+
+.about-section{
+    display: flex;
+    padding: 7%;
+    background-color:aliceblue;
+}
+
+/* this is specialize section */
+
+.specializing-head{
+    text-align: center;
+    padding: 0 20%;
+}
+
+
+.parent-div{
+    display: flex;
+    
+    padding: 0 20%;
+}
+.child{
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image:linear-gradient(blue,cyan ) 0 100%;
+}
